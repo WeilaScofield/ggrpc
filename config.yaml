@@ -1,0 +1,18 @@
+# postgres配置
+postgres:
+  host: "101.133.216.184"
+  port: 5432
+  user:  "vela"
+  passwd: "829475"
+  db: "swords"
+
+# redis配置
+redis:
+  addrs: "101.133.216.184:6379"
+  passwd: ""
+  db: 1
+
+# etcd配置
+etcd:
+  addrs: "101.133.216.184:32772"
+  resolver: "swords"
